@@ -1,0 +1,10 @@
+.img-container {
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#cards {
+    width: 100%;
+    text-align: center;
+    margin-left: 7%;
+}
