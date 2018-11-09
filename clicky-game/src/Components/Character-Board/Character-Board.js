@@ -45,7 +45,7 @@ class CharacterBoard extends Component {
                     highScore: (this.state.highScore > this.state.score ? this.state.highScore : this.state.score),
                     unclicked: newCharacters,
                     characters: characters,
-                    message: (this.state.score === 12 ? "Congrats, you WIN!" : "nicely, done")
+                    message: (this.state.score == 12 ? "Congrats, you WIN!" : "nicely, done")
                  })
             }
             this.shuffleCharacters(characters)
